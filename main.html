@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" media="screen and (max-width:768px)" href="css/tablet.css">
+  <link rel="stylesheet" media="screen and (max-width: 475px)" href="css/mobile.css">
+  <link rel="stylesheet" href="css/toast.css">
+  <title>Logo</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__logo">
+      <img src="img/logo.svg" alt="logo">
+    </div>
+    <div class="nav">
+      <a href="#" class="contacts">Контакты</a>
+      <button class="sign-in">Войти</button>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <div class="main__head">
+
+      <h1 class="main__title">Место для получения медицинской помощи</h1>
+
+      <div class="nav main__nav">
+        <button class="sign-in sign-in_colored">Войти</button>
+        <a href="#" class="contacts contacts_colored">Контакты</a>
+      </div>
+
+    </div>
+
+    <div class="main__cards">
+
+
+
+      <div class="main__card">
+
+        <div class="main__card-img">
+          <img src="img/online.svg" alt="online">
+        </div>
+
+        <div class="main__card-descr">
+          <h3 class="main__card-title">Онлайн-прием</h3>
+          <p class="main__card-text">Рыба текст</p>
+        </div>
+
+      </div>
+
+
+      <div class="main__card">
+
+        <div class="main__card-img">
+          <img src="img/online.svg" alt="online">
+        </div>
+
+        <div class="main__card-descr">
+          <h3 class="main__card-title">Онлайн-прием</h3>
+          <p class="main__card-text">Рыба текст</p>
+        </div>
+
+      </div>
+
+
+      <div class="main__card">
+
+        <div class="main__card-img">
+          <img src="img/online.svg" alt="online">
+        </div>
+
+        <div class="main__card-descr">
+          <h3 class="main__card-title">Онлайн-прием</h3>
+          <p class="main__card-text">Рыба текст</p>
+        </div>
+
+      </div>
+
+
+
+    </div>
+
+
+  </main>
+
+
+  <div id="openModal" class="modal hide">
+    <div class="modal__dialog">
+      <div class="modal__content">
+        <div class="modal__header">
+          <h3 class="modal__title">Вход в систему</h3>
+          <a href="#close" title="Close" class="modal__close">×</a>
+        </div>
+        <div class="modal__body">
+
+          <form class="sign-in-form" name="sign" action="#" id="sign">
+            <label for="login">
+              <input required type="text" name="login" id="login" placeholder="Логин">
+            </label>
+
+            <label for="password">
+              <input required type="password" name="password" id="password" placeholder="Пароль">
+            </label>
+
+            <label>
+              <button type="submit" class="sign-in-form__submit">Войти</button>
+            </label>
+          </form>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  </div>
+
+  <script src="js/app.js"></script>
+  <script src="js/toast.js"></script>
+</body>
+
+</html>

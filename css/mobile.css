@@ -1,0 +1,18 @@
+.sign-in {
+  padding: 8px 20px;
+}
+.sign-in_colored {
+  padding: 15px 40px;
+}
+
+.header {
+  justify-content: space-between;
+  padding: 0 5px;
+}
+.nav {
+  gap: 5px;
+}
+
+.main__cards {
+  flex-direction: column;
+}

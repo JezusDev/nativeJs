@@ -1,0 +1,32 @@
+.sign-in {
+  padding: 8px 40px;
+}
+
+.sign-in_colored {
+  padding: 15px 40px;
+}
+
+.nav {
+  gap: 10px;
+}
+
+.main__cards {
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 634px) {
+  .main__title {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 536px) {
+  .header {
+    padding: 0 10px;
+  }
+
+  .main__head,
+  .main__cards {
+    width: 90%;
+  }
+}
