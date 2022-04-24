@@ -1,5 +1,5 @@
 # Java-Script приложение с авторизацией
- [View promo](https://jezusdev.github.io/reactJs/)
+ [View demo](https://jezusdev.github.io/reactJs/)
 -----------------------
 
 
